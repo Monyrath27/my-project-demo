@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelVista</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <h1 class="glow">🌍 TravelVista</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#destinations">Destinations</a>
+      <a href="#flights">Flights & Hotels</a>
+      <!-- Travel Sites Dropdown -->
+      <div class="dropdown">
+        <a href="#travelsites">Travel Sites ▼</a>
+        <div class="dropdown-content">
+          <a href="https://www.lonelyplanet.com" target="_blank">Lonely Planet</a>
+          <a href="https://www.tripadvisor.com" target="_blank">TripAdvisor</a>
+          <a href="https://www.kayak.com" target="_blank">Kayak</a>
+          <a href="https://www.booking.com" target="_blank">Booking.com</a>
+          <a href="https://www.expedia.com" target="_blank">Expedia</a>
+        </div>
+      </div>
+      <a href="#about">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Welcome Section -->
+  <section id="home" class="welcome fade-in">
+    <div class="welcome-content">
+      <h1>TravelVista</h1>
+      <p class="quote">“Leave nothing but footprints, take nothing but memories.”</p>
+      <a href="#destinations" class="btn">Start Exploring</a>
+    </div>
+  </section>
+
+  <!-- Destinations -->
+  <section id="destinations" class="fade-in">
+    <h2 class="section-title">Top Travel Destinations</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/australia.jpg" alt="Australia">
+        <h3><b>Australia</b></h3>
+        <p><i>Adventure & Beaches</i><br>Sydney & Great Barrier Reef</p>
+        <a href="pages/aus.html" target="_blank" class="see-more">See More</a>
+      </div>
+      <div class="card">
+        <img src="images/brazil.jpg" alt="Brazil">
+        <h3><b>Brazil</b></h3>
+        <p><i>Vibrant Culture</i><br>Rio & Amazon</p>
+        <a href="pages/brazil.html" target="_blank" class="see-more">See More</a>
+      </div>
+      <div class="card">
+        <img src="images/cambodia.jpg" alt="Cambodia">
+        <h3><b>Cambodia</b></h3>
+        <p><i>Rich Heritage</i><br>Angkor Wat & Phnom Penh</p>
+        <a href="pages/cam.html" target="_blank" class="see-more">See More</a>
+      </div>
+      <div class="card">
+        <img src="images/france.jpg" alt="France">
+        <h3><b>France</b></h3>
+        <p><i>Romantic Paris</i><br>Eiffel Tower & Louvre</p>
+        <a href="pages/france.html" target="_blank" class="see-more">See More</a>
+      </div>
+      <div class="card">
+        <img src="images/italy.jpg" alt="Italy">
+        <h3><b>Italy</b></h3>
+        <p><i>Historic & Delicious</i><br>Rome & Venice</p>
+        <a href="pages/italy.html" target="_blank" class="see-more">See More</a>
+      </div>
+      <div class="card">
+        <img src="images/japan.jpg" alt="Japan">
+        <h3><b>Japan</b></h3>
+        <p><i>Cultural Wonders</i><br>Kyoto & Tokyo</p>
+        <a href="pages/japan.html" target="_blank" class="see-more">See More</a>
+      </div>
+      <div class="card">
+        <img src="images/korea.jpg" alt="Korea">
+        <h3><b>Korea</b></h3>
+        <p><i>Modern & Traditional</i><br>Seoul & Jeju Island</p>
+        <a href="pages/korea.html" target="_blank" class="see-more">See More</a>
+      </div>
+      <div class="card">
+        <img src="images/singapore.jpg" alt="Singapore">
+        <h3><b>Singapore</b></h3>
+        <p><i>City in a Garden</i><br>Marina Bay & Sentosa</p>
+        <a href="pages/singapore.html" target="_blank" class="see-more">See More</a>
+      </div>
+      <div class="card">
+        <img src="images/switzerland.jpg" alt="Switzerland">
+        <h3><b>Switzerland</b></h3>
+        <p><i>Alpine Beauty</i><br>Zurich & Interlaken</p>
+        <a href="pages/switz.html" target="_blank" class="see-more">See More</a>
+      </div>
+      <div class="card">
+        <img src="images/usa.jpg" alt="USA">
+        <h3><b>USA</b></h3>
+        <p><i>City & Nature</i><br>New York & Grand Canyon</p>
+        <a href="pages/usa.html" target="_blank" class="see-more">See More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Flights & Hotels Table -->
+  <section id="flights" class="fade-in">
+    <h2 class="section-title">Flights & Hotel Recommendations</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Destination</th>
+          <th>Airline</th>
+          <th>Weekday Flight</th>
+          <th>Weekend Flight</th>
+          <th>Hotel Recommendation</th>
+          <th>Weekday Hotel</th>
+          <th>Weekend Hotel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Australia</td>
+          <td>Qantas</td>
+          <td>$300</td>
+          <td>$340</td>
+          <td>Shangri-La Sydney</td>
+          <td>$300</td>
+          <td>$360</td>
+        </tr>
+        <tr>
+          <td>Brazil</td>
+          <td>LATAM Airlines</td>
+          <td>$250</td>
+          <td>$280</td>
+          <td>Belmond Copacabana</td>
+          <td>$250</td>
+          <td>$300</td>
+        </tr>
+        <tr>
+          <td>Cambodia</td>
+          <td>Cambodia Angkor Air</td>
+          <td>$150</td>
+          <td>$180</td>
+          <td>Raffles Grand Hotel d’Angkor</td>
+          <td>$150</td>
+          <td>$200</td>
+        </tr>
+        <tr>
+          <td>France</td>
+          <td>Air France</td>
+          <td>$350</td>
+          <td>$380</td>
+          <td>Le Meurice</td>
+          <td>$350</td>
+          <td>$420</td>
+        </tr>
+        <tr>
+          <td>Italy</td>
+          <td>Alitalia</td>
+          <td>$280</td>
+          <td>$320</td>
+          <td>Hotel de Russie</td>
+          <td>$280</td>
+          <td>$350</td>
+        </tr>
+        <tr>
+          <td>Japan</td>
+          <td>Japan Airlines</td>
+          <td>$320</td>
+          <td>$360</td>
+          <td>Park Hyatt Tokyo</td>
+          <td>$320</td>
+          <td>$380</td>
+        </tr>
+        <tr>
+          <td>Korea</td>
+          <td>Korean Air</td>
+          <td>$300</td>
+          <td>$340</td>
+          <td>Shilla Hotel Seoul</td>
+          <td>$300</td>
+          <td>$360</td>
+        </tr>
+        <tr>
+          <td>Singapore</td>
+          <td>Singapore Airlines</td>
+          <td>$280</td>
+          <td>$320</td>
+          <td>Marina Bay Sands</td>
+          <td>$280</td>
+          <td>$360</td>
+        </tr>
+        <tr>
+          <td>Switzerland</td>
+          <td>Swiss Airlines</td>
+          <td>$400</td>
+          <td>$450</td>
+          <td>Hotel Schweizerhof</td>
+          <td>$400</td>
+          <td>$480</td>
+        </tr>
+        <tr>
+          <td>USA</td>
+          <td>Delta Airlines</td>
+          <td>$400</td>
+          <td>$450</td>
+          <td>Hilton NYC</td>
+          <td>$400</td>
+          <td>$480</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Travel Sites Section -->
+  <section id="travelsites" class="fade-in">
+    <h2 class="section-title">Recommended Travel Websites</h2>
+    <div class="travel-cards">
+      <div class="travel-card">
+        <img src="images/lonelyplanet.jpg" alt="Lonely Planet">
+        <p><a href="https://www.lonelyplanet.com" target="_blank">Lonely Planet</a></p>
+      </div>
+      <div class="travel-card">
+        <img src="images/tripadvisor.jpg" alt="TripAdvisor">
+        <p><a href="https://www.tripadvisor.com" target="_blank">TripAdvisor</a></p>
+      </div>
+      <div class="travel-card">
+        <img src="images/kayak.jpg" alt="Kayak">
+        <p><a href="https://www.kayak.com" target="_blank">Kayak</a></p>
+      </div>
+      <div class="travel-card">
+        <img src="images/booking.jpg" alt="Booking.com">
+        <p><a href="https://www.booking.com" target="_blank">Booking.com</a></p>
+      </div>
+      <div class="travel-card">
+        <img src="images/expedia.jpg" alt="Expedia">
+        <p><a href="https://www.expedia.com" target="_blank">Expedia</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="fade-in">
+    <h2 class="section-title">About Me</h2>
+    <p>Hello! I am <b>Monyrath</b>, the creator of TravelVista.</p>
+    <p>As I always say: <i>“Leave nothing but footprints, take nothing but memories.”</i></p>
+  </section>
+
+  <!-- Reviews & Ratings -->
+  <section id="reviews" class="fade-in">
+    <h2 class="section-title">User Reviews</h2>
+    <div class="review-cards">
+      <div class="review-card">
+        <img src="images/user1.jpg" alt="Liminh">
+        <p><b>Liminh:</b> “I loved TravelVista!”</p>
+        <p class="stars">⭐⭐⭐⭐⭐</p>
+      </div>
+      <div class="review-card">
+        <img src="images/user2.jpg" alt="Soklim">
+        <p><b>Soklim:</b> “Very useful travel guide!”</p>
+        <p class="stars">⭐⭐⭐⭐</p>
+      </div>
+      <div class="review-card">
+        <img src="images/user3.jpg" alt="Nary">
+        <p><b>Nary:</b> “Amazing design and easy to navigate.”</p>
+        <p class="stars">⭐⭐⭐⭐⭐</p>
+      </div>
+      <div class="review-card">
+        <img src="images/user4.jpg" alt="Tita">
+        <p><b>Tita:</b> “Highly recommend this website.”</p>
+        <p class="stars">⭐⭐⭐⭐</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="fade-in">
+    <h2 class="section-title">Contact Me</h2>
+    <form>
+      <label><b>Your Name:</b></label>
+      <input type="text" required>
+      <label><b>Your Email:</b></label>
+      <input type="email" required>
+      <label><b>Message:</b></label>
+      <textarea required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
